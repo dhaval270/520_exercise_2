@@ -1,0 +1,12 @@
+You are a software testing expert, generate test cases to improve branch coverage.
+TASK:
+Generate additional test cases that will:
+1. Test the edge case where threshold is exactly 0 (should return False)
+2. Test the edge case where threshold is negative (should return False)
+3. Test the edge case where the list has exactly 1 element (should return False)
+4. Test the edge case where the list is empty (should return False)
+5. Test the boundary condition where the distance equals the threshold (currently uses <, so should return False)
+6. Test with all identical numbers
+7. Test with negative numbers
+8. Test with very large threshold values
+Provide the new test cases, using assert statements. Focus on increasing branch coverage by testing all conditional paths in the function.
