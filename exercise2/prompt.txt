@@ -1,0 +1,16 @@
+You are a software testing expert, generate test cases to improve branch coverage.
+TASK:
+Generate only the tests must specifically increase branch coverage by triggering 
+all remaining untested conditions, else-paths, or early exits,
+both True and False outcomes of conditionals,
+edge inputs.
+Generate additional test cases that will:
+1. Test the edge case where threshold is exactly 
+2. Test the edge case where threshold is negative
+3. Test the edge case where the list has exactly 1 element 
+4. Test the edge case where the list is empty
+5. Test the boundary condition where the distance equals the threshold (currently uses <, so should return False)
+6. Test with all identical numbers
+7. Test with negative numbers
+8. Test with very large threshold valuesFunction : {function}
+Provide the new test cases, using assert statements. Focus on increasing branch coverage by testing all conditional paths in the function.”
